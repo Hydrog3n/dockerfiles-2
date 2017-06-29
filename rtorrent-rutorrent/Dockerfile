@@ -52,6 +52,7 @@ RUN export BUILD_DEPS="build-base \
                 tar \
                 xz \
                 screen \
+                findutils \
     && cd /tmp \
     && git clone https://github.com/esmil/mktorrent \
     && svn checkout http://svn.code.sf.net/p/xmlrpc-c/code/stable xmlrpc-c \
